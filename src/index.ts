@@ -61,7 +61,6 @@ const server = createServer((req: IncomingMessage, res: ServerResponse) => {
             res.statusCode = 200;
             res.end();
           })
-          return;
         }
         res.statusCode = 500;
         return res.end();

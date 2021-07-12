@@ -3,3 +3,9 @@
 /file
 
 /dist
+
+.env
+
+#/keys/keys.prod.ts
+#/keys/keys.dev.ts
+/src/keys/index.ts
